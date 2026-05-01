@@ -16,7 +16,7 @@ options {
         stage('Clone github repository') {
             steps {
                 cleanWs()
-                bat 'chcp 65001 && git clone -b main https://github.com/IcyAltair/mle-template.git'
+                bat 'chcp 65001 && git clone -b main https://github.com/RushatGar/mle-template.git'
 				}
 			}
 
